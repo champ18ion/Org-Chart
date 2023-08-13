@@ -62,7 +62,6 @@ const data = [
                           "email": "sam.sales@example.com",
                           "manager": "Jack Sales TL"
                         }
-                        // ... other sales representatives
                       ]
                     },
                     {
@@ -83,10 +82,8 @@ const data = [
                           "email": "victor.sales@example.com",
                           "manager": "Kelly Sales TL"
                         }
-                        // ... other sales representatives
                       ]
                     }
-                    // ... other sales managers and team leaders
                   ]
                 },
                 {
@@ -113,10 +110,8 @@ const data = [
                           "email": "xavier.marketing@example.com",
                           "manager": "Leo Mktg TL"
                         }
-                        // ... other marketers
                       ]
                     }
-                    // ... other marketing team leaders
                   ]
                 },
                 {
@@ -143,7 +138,6 @@ const data = [
                           "email": "zach.ops@example.com",
                           "manager": "Nathan Ops TL"
                         }
-                        // ... other operations staff
                       ]
                     },
                     {
@@ -151,11 +145,8 @@ const data = [
                       "designation": "Operations Team Leader",
                       "email": "olivia.ops@example.com",
                       "manager": "Henry Ops Mgr",
-                      "employees": [
-                        // ... other operations team members
-                      ]
+                      "employees": []
                     }
-                    // ... other operations team leaders
                   ]
                 },
                 {
@@ -194,13 +185,13 @@ const data = [
                           "email": "dana.tech@example.com",
                           "manager": "Paul Tech TL"
                         }
-                        // ... other technology staff
+                      
                       ]
                     }
-                    // ... other technology team leaders
+                   
                   ]
                 }
-                // ... other employees under Carol CEO
+               
               ]
             }
         ]
@@ -209,7 +200,6 @@ const data = [
   },
 
     
-    // ... other employees and managers
   ];
   
   export default data;

@@ -12,7 +12,6 @@ const Employee = ({ fullName, designation }) => {
             alt="circled-user-male-skin-type-7--v1"
           />
         </div>
-
         <div className="emp-info">
           <h3>{fullName}</h3>
           <h6>{designation}</h6>
